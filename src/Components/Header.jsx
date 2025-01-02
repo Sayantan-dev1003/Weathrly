@@ -6,7 +6,7 @@ const Header = () => {
         <header className="w-full bg-white shadow-md mobile:shadow-none laptop:shadow-md tablet:shadow-md px-6 py-2 mobile:px-0 mobile:py-0 tablet:px-4 tablet:py-2 laptop:px-6 laptop:py-2 flex items-center justify-between gap-4 mobile:gap-3 rounded-2xl text-sm text-gray-500 poppins mobile:bg-transparent tablet:bg-white laptop:bg-white">
             <div className="flex items-center gap-5 mobile:gap-2 laptop:gap-5 tablet:gap-3">
                 <FontAwesomeIcon icon={faBars} className="text-gray-700 text-xs mobile:text-xs tablet:text-sm laptop:text-lg" />
-                <span className="text-lg font-semibold text-sky-600 montserrat mobile:text-xs tablet:text-base laptop:text-lg">Weathrly</span>
+                <span className="text-lg font-semibold text-sky-600 montserrat mobile:text-sm tablet:text-base laptop:text-lg">Weathrly</span>
             </div>
             <div className="flex items-center gap-1">
                 <FontAwesomeIcon icon={faLocationDot} className="text-gray-500" />
